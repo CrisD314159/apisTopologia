@@ -1,0 +1,9 @@
+### Obtener todos los recibos de un usuario
+GET http://localhost:8000/epa/invoices/123456789
+
+
+### Obtener un recibo por codigo
+GET http://localhost:8000/epa/invoice/REC123
+
+### Pagar un recibo
+PUT http://localhost:8000/epa/invoices/REC123

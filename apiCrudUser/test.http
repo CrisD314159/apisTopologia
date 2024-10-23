@@ -1,0 +1,43 @@
+### get all users
+GET http://localhost:3030/epa/get-all
+
+### get one user
+GET http://localhost:3030/epa/get-user/123456789
+
+
+### create user
+POST http://localhost:3030/epa/create-user
+Content-Type: application/json
+
+{
+    "cedula": "1098282762",
+    "nombre": "Vanessa Cardona",
+    "direccion": "Calle 34 #23-12",
+    "telefono": "31323231232",
+    "estrato":"5",
+    "email": "vane123@gmail.com",
+    "password": "12345678"
+
+}
+
+###eliminar un usuario
+DELETE http://localhost:3030/epa/delete-user
+Content-Type: application/json
+
+{
+    "cedula": "102838273",
+    "email":"pe.cardona@example.com"
+}
+### actualizar un usuario
+PUT http://localhost:3030/epa/update-user
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImNlZHVsYSI6IjEwOTgyODI3NjIiLCJub21icmUiOiJWYW5lc3NhIENhcmRvbmEiLCJlbWFpbCI6InZhbmUxMjNAZ21haWwuY29tIn0sImlhdCI6MTcyOTY0NTA1MywiZXhwIjoxNzI5NjQ1MDYzfQ.A0oXhnSxYuwPu9dCnUXJtIRfS6IK7ioq_HBRzr4n9R4
+
+{
+    "cedula": "1098282762",
+    "nombre": "Juanito alimaña",
+    "direccion": "Selva de cemento",
+    "telefono": "1234567890",
+    "estrato":"6",
+    "password": "123467987394"
+}

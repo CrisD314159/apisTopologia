@@ -1,0 +1,19 @@
+{
+  "name": "apiinvoices",
+  "version": "1.0.0",
+  "description": "Api para los recibos de los usuarios para la topologia de la EPA",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "postgres": "^3.4.4"
+  }
+}

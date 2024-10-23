@@ -1,0 +1,9 @@
+### send email
+POST http://localhost:4000/epa/send-email
+Content-Type: application/json
+
+{
+    "email":"perry.farrell85@ethereal.email ",
+    "subject": "Test email",
+    "message": "This is a test email"
+}

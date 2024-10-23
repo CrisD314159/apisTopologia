@@ -1,0 +1,12 @@
+### test login
+POST http://localhost:3000/apiAuth/login
+Content-Type: application/json
+
+{
+    "email":"vane123@gmail.com",
+    "password": "12345678"
+}
+
+
+### logout 
+POST http://localhost:3000/apiAuth/logout
