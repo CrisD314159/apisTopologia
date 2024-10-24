@@ -10,12 +10,12 @@ POST http://localhost:3030/epa/create-user
 Content-Type: application/json
 
 {
-    "cedula": "1098282762",
-    "nombre": "Vanessa Cardona",
+    "cedula": "1982726253",
+    "nombre": "Melisa Cardona",
     "direccion": "Calle 34 #23-12",
-    "telefono": "31323231232",
+    "telefono": "31323231232",x
     "estrato":"5",
-    "email": "vane123@gmail.com",
+    "email": "meliss@gmail.com",
     "password": "12345678"
 
 }

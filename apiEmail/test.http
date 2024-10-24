@@ -7,3 +7,12 @@ Content-Type: application/json
     "subject": "Test email",
     "message": "This is a test email"
 }
+### post con el contenedor corriendo el multipass
+POST http://192.168.64.15:4000/epa/send-email
+Content-Type: application/json
+
+{
+    "email":"perry.farrell85@ethereal.email ",
+    "subject": "Test email",
+    "message": "This is a test email"
+}
